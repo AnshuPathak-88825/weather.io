@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <div id="wave-1" class="wave"></div>
+        <div id="wave-2" class="wave"></div>
+        <div id="wave-3" class="wave"></div>
+        <div id="weathercon">
+            <i class="fas fa-sun" style="color: yellow;"></i>
+        </div>
+        <div class="info">
+            <h2 class="location"><i class="fas fa-street-view"></i> {%location%},{%country%}</h2>
+            <p class="date-month">Thursday|JAN 20|2:15</p>
+            <h1 class="temp">temperatureofcity</h1>
+            <h3 class="min-max-temp">Min {%tempmin%}| Max {%tempmax%}</h3>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="server.js"></script> -->
+</body>
+
+</html>
